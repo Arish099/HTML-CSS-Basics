@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ment</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .parent{
+            width: 600px;
+            height: 450px;
+            position: relative;
+            margin:80px 400px;
+        }
+        .img{
+        
+            width: 600px;
+            height: 500px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 109;
+            opacity: 0.5;
+            border-radius: 20px;
+
+        }
+        .p{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            padding: 50px;
+            transform: translate(-50%,-50%);
+            width: 600px;
+            z-index: 120;
+            text-align: center;
+            line-height: 27px;
+            font-weight: 600;
+            color:lightgrey rgb(82,82,82);
+        }
+   
+</style>
+</head>
+<body>
+    <div class="parent">
+            <img src="image/124.jpg" alt="" class="img">
+        
+        <p class="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate tempore eaque corporis odio! Dolor ea beatae deserunt totam dolores dignissimos fugiat repellendus deleniti cupiditate voluptatem, ab et, eveniet impedit! Non?</p>
+  
+    </div>
+</body>
+</html>
